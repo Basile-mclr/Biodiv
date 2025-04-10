@@ -1,10 +1,5 @@
-options(repos = c(CRAN = "https://cran.r-project.org"))
-
-# Définir le chemin de la bibliothèque
-.libPaths("C:/Users/J1149071/AppData/Local/R/win-library/4.4")
-
 # Réinstaller les packages nécessaires
-install.packages(c("shiny", "bslib", "rsconnect"), lib = "C:/Users/J1149071/AppData/Local/R/win-library/4.4")
+install.packages(c("shiny", "bslib", "rsconnect"))
 
 # Charger les packages
 library(shiny)
@@ -26,7 +21,7 @@ server <- function(input, output) {
 shinyApp(ui, server)
 
 rsconnect::setAccountInfo(name='wcpym7-basile-mauclaire',
-                          token='04CCCFBA57D8149243B59B24212B05B6',
-                          secret='jT8GK0hW6/fR6A3ewkCnv6JkOzeEgD9ZfdpeNjzR')
+			  token='04CCCFBA57D8149243B59B24212B05B6',
+			  secret='jT8GK0hW6/fR6A3ewkCnv6JkOzeEgD9ZfdpeNjzR')
 
-rsconnect::deployApp("C:/Trophii")
+rsconnect::deployApp("https://github.com/Basile-mclr/Biodiv/tree/main/Trophii")
