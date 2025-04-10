@@ -8,7 +8,7 @@ library(bslib)
 library(rsconnect)
 
 # Définir le thème
-theme <- bs_theme(version = 5, bootswatch = "yeti")  # Utilisez un thème valide
+theme <- bs_theme(version = 5, bootswatch = "yeti") # Utilisez un thème valide
 
 # Définir l'interface utilisateur
 ui <- page_fixed(
