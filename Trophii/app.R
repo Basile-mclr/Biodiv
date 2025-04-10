@@ -31,7 +31,8 @@ rsconnect::setAccountInfo(name='wcpym7-basile-mauclaire',
    secret='jT8GK0hW6/fR6A3ewkCnv6JkOzeEgD9ZfdpeNjzR')
 
 # Ajouter un répertoire temporaire pour les bibliothèques R
-.libPaths(c("/tmp/Rlibs", .libPaths()))
+.libPaths(c("C:/Users/J1149071/Documents/Rlibs", .libPaths()))
+
 
 # Déployer l'application
 
