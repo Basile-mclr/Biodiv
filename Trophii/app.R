@@ -34,4 +34,6 @@ rsconnect::setAccountInfo(name='wcpym7-basile-mauclaire',
 .libPaths(c("/tmp/Rlibs", .libPaths()))
 
 # Déployer l'application
-rsconnect::deployApp('/c/Users/J1149071/Biodiv/Trophii')
+
+rsconnect::deployApp('C:\\Users\\J1149071\\Biodiv\\Trophii')
+
